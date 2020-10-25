@@ -22,7 +22,7 @@ public class BObjetos {
 		System.out.println("Desapilamos todos elementos...");
 		System.out.println(pila.pop());
 		System.out.println(pila.pop());
-		//System.out.println(s.pop());//Arroja una excepcion del tipo EmptyStackException
+		//System.out.println(s.pop());//Arroja una excepcion
 		if(pila.isEmpty())//Metodo para validar si la pila esta vacia
 			System.out.println("La pila esta vacia");
 	}
