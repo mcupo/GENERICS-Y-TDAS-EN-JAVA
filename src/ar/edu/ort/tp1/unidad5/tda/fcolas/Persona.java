@@ -1,4 +1,4 @@
-package ar.edu.ort.tp1.unidad5.generics.fcolas;
+package ar.edu.ort.tp1.unidad5.tda.fcolas;
 
 public class Persona {
 

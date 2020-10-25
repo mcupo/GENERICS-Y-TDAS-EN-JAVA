@@ -1,4 +1,4 @@
-package edu.ort.tp1.u5.tda;
+package ar.edu.ort.tp1.unidad5.tda.hinterfaces;
 
 public interface ListaOrdenada<K, T> extends Tda, Iterable<T> {
 	static final String MSG_INVALID_KEY = "Clave invalida";

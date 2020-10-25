@@ -1,4 +1,4 @@
-package edu.ort.tp1.u5.tda.nodos;
+package ar.edu.ort.tp1.unidad5.tda.inodos;
 
 public class NodoLista<T> extends Nodo<T> {
 

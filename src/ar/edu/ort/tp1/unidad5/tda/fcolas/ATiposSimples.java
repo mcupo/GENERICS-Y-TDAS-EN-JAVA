@@ -1,7 +1,7 @@
-package ar.edu.ort.tp1.unidad5.generics.fcolas;
+package ar.edu.ort.tp1.unidad5.tda.fcolas;
 
-import edu.ort.tp1.u5.tda.Cola;
-import edu.ort.tp1.u5.tda.nodos.ColaNodos;
+import ar.edu.ort.tp1.unidad5.tda.hinterfaces.Cola;
+import ar.edu.ort.tp1.unidad5.tda.inodos.ColaNodos;
 
 public class ATiposSimples {
 

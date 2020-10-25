@@ -1,6 +1,6 @@
 package edu.ort.tp1.u5.tda.test.listas;
 
-import edu.ort.tp1.u5.tda.nodos.ListaOrdenadaNodos;
+import ar.edu.ort.tp1.unidad5.tda.inodos.ListaOrdenadaNodos;
 
 public class EmpleadosPorNombre extends ListaOrdenadaNodos<String, Empleado> {
 

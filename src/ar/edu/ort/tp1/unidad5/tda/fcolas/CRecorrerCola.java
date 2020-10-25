@@ -1,15 +1,12 @@
-package ar.edu.ort.tp1.unidad5.generics.fcolas;
+package ar.edu.ort.tp1.unidad5.tda.fcolas;
 
-import edu.ort.tp1.u5.tda.Cola;
-import edu.ort.tp1.u5.tda.nodos.ColaNodos;
+import ar.edu.ort.tp1.unidad5.tda.hinterfaces.Cola;
+import ar.edu.ort.tp1.unidad5.tda.inodos.ColaNodos;
 
 public class CRecorrerCola {
 
 	public static void main(String[] args) {		
-		//Declaro una variable de tipo Interfaz Cola que va a contener clases de tipo String
 		Cola<Persona> cola;
-		//Instancio un clase de tipo ColaNodos que implementa la interfaz Cola y por ende es una operación segura
-		//Upcasting
 		cola = new ColaNodos<>();
 		System.out.println("Encolamos algunos elementos...");
 		Persona persona1 = new Persona("Juan", "Perez");

@@ -1,7 +1,7 @@
-package ar.edu.ort.tp1.unidad5.generics.epilas;
+package ar.edu.ort.tp1.unidad5.tda.epilas;
 
-import edu.ort.tp1.u5.tda.Pila;
-import edu.ort.tp1.u5.tda.nodos.PilaNodos;
+import ar.edu.ort.tp1.unidad5.tda.hinterfaces.Pila;
+import ar.edu.ort.tp1.unidad5.tda.inodos.PilaNodos;
 
 public class ATiposSimples {
 

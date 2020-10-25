@@ -1,4 +1,4 @@
-package ar.edu.ort.tp1.unidad5.generics.epilas;
+package ar.edu.ort.tp1.unidad5.tda.epilas;
 
 public class Auto {
 
