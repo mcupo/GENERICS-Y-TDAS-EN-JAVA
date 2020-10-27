@@ -6,7 +6,7 @@ public class TestCaja {
 
 	public static void main(String[] args) {
 		
-		Caja<ParDeZapatos> unaCaja = new Caja<ParDeZapatos>();
+		Caja<ParDeZapatos> unaCaja = new Caja<>();
 		unaCaja.guardar(new ParDeZapatos("Negro"));
 	}
 }

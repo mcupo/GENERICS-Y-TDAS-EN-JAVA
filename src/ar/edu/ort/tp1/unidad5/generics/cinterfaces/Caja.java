@@ -2,23 +2,26 @@ package ar.edu.ort.tp1.unidad5.generics.cinterfaces;
 
 import java.util.ArrayList;
 
-public class Caja<E> implements GuardaCosas<E> {
+public class Caja<E> implements GuardaCosas<E>{
 	private ArrayList<E> elementos;
 
 	public Caja() {
 		elementos = new ArrayList<E>();
 	}
 
+	@Override
 	public boolean estaVacia() {
 		return elementos.isEmpty();
 	}
 
 	//Hacemos de cuenta que la caja solo puede expandirse para guardar 5 elementos como máximo
+	@Override
 	public boolean estaLlena() {
 		return elementos.size()>4;
 	}
 
-	public void guardar(E contenido) {
+	@Override
+	public void guardar(E contenido) throws RuntimeException{
 		if (contenido == null) {
 			throw new RuntimeException("Debe agregarse un contenido");
 		}
@@ -28,6 +31,7 @@ public class Caja<E> implements GuardaCosas<E> {
 		this.elementos.add(contenido);
 	}
 
+	@Override
 	public E extraer() {
 		E elemento = null;
 		if (estaVacia()) {

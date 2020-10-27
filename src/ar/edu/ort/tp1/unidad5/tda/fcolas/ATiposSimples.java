@@ -21,7 +21,7 @@ public class ATiposSimples {
 		System.out.println(cola.remove());
 		System.out.println(cola.remove());
 		//System.out.println(cola.remove());//Arroja una excepcion
-		System.out.println("Tamaño de la cola: " + cola.size());//Devuelve la cantidad de elementos que posee la cola
+		//System.out.println("Tamaño de la cola: " + cola.size());//Devuelve la cantidad de elementos que posee la cola
 		if(cola.isEmpty())//Metodo para validar si la cola esta vacia
 			System.out.println("La cola esta vacia");
 	}

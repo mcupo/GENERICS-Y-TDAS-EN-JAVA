@@ -13,6 +13,7 @@ public class TestCaja2 {
 		Caja<ParDeZapatos> cajaDeZapatos = new Caja<>();
 		cajaDeZapatos.guardar(zapatos);
 		ArrayList<Caja<ParDeZapatos>> miColeccionDeZapatos = new ArrayList<>();
+		CajaDeZapatos caja = new CajaDeZapatos();
 		
 //Pero si intentamos hacer lo mismo con arrays nativos:
 //Veremos que Arrays y Generics no se llevan bien en Java, al menos al momento de declarar e inicializar el array. 
@@ -31,7 +32,7 @@ public class TestCaja2 {
 //Así, al quedar escondida la definición genérica inicial, se puede crear e inicializar un Array de la nueva clase 
 //sin problemas porque la nueva clase ya es de un tipo concreto:
 		CajaDeZapatos [] zapatero = new CajaDeZapatos[CANTIDAD_DE_CAJAS];
-		CajaDeZapatos caja = new CajaDeZapatos();
+		CajaDeZapatos caja3 = new CajaDeZapatos();
 		caja.guardar(zapatos);
 		zapatero[0] = caja;
 	}
