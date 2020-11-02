@@ -22,7 +22,7 @@ public class TestListaOrdenada {
 		agregarEmpleado(2, "Dany");
 		agregarEmpleado(4, "Carlos");
 		agregarEmpleado(8, "Sebastian");
-		agregarEmpleado(7, "Sebastian");
+		agregarEmpleado(7, "Sebastian 2");
 
 		// listo los empleados ordenados de dos formas distintas (por legajo y por nombre)
 		listar(listaPorLegajo);

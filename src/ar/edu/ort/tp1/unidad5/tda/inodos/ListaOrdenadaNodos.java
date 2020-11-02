@@ -25,7 +25,7 @@ public abstract class ListaOrdenadaNodos<K, T> extends TdaNodos<T> implements Li
 			// es el primer nodo (lista vacia)
 			first = node;
 			last = node;
-		} else if (compare(newElement, first.getElement()) < 0) {
+		} else if (compare(newElement, first.getElement()) <= 0) {
 			// tiene que quedar antes que el first
 			node.next(first);
 			((NodoLista<T>) first).previous(node);
